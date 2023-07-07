@@ -1,0 +1,110 @@
+.grid
+{
+    margin-top: 194px;
+}
+
+
+.cart__container{
+    max-width: 100%;
+    margin: auto;
+    background-color: rgba( 128, 128, 128, 0.1);
+    font-size: 15px;
+}
+
+.cart-page{
+   margin-top: 80px;
+   margin-bottom: 10px;
+   background-color: rgba( 128, 128, 128, 0.1);
+
+}
+
+
+.cart-info img{
+    width: 80px;
+    height: 80px;
+    background-color: rgba( 128, 128, 128, 0.1);
+    margin-right: 10px;
+
+}
+
+
+table{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+td{
+    padding: 15px 15px;
+}
+
+td input{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: fff;
+    background-color: antiquewhite;
+}
+
+a{
+    color: tomato;
+}
+
+
+
+.total-price table{
+    width: 100%;
+    max-width: 435px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+
+.buybtn{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding: 20px 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.btn:hover{
+    background: #79b9eb;
+}
+
+
+.total-price{
+    width: 300px;
+}
